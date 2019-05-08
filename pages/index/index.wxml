@@ -1,0 +1,36 @@
+<!-- 菩萨保佑代码无bug -->
+<view>
+<!-- 上面tab标签滑动切换 -->
+  <view class='lesson_tab'>
+    <view class='lesson_tabb' bindtap='onLeft'>
+      <view class='{{currentTab==0?"active":""}}'>
+        课程详情
+      </view>
+      <view class='{{currentTab==0?"lesson_border":""}}'></view>
+    </view>
+    <view class='lesson_tabb' bindtap='onMiddle'>
+      <view class='{{currentTab==1?"active":""}}'>
+        目录
+      </view>
+      <view class='{{currentTab==1?"lesson_border":""}}'></view>
+    </view>
+    <view class='lesson_tabb' bindtap='onRight'>
+      <view class='{{currentTab==2?"active":""}}'>
+        评价
+      </view>
+      <view class='{{currentTab==2?"lesson_border":""}}'></view>
+    </view>
+  </view>
+  <!-- 下面滑动切换 -->
+  <swiper bindchange='bindChange' style='height:55vh' current='{{currentTab}}'>
+    <swiper-item>
+      123
+    </swiper-item>
+    <swiper-item>
+      321
+    </swiper-item>
+    <swiper-item>
+      456
+    </swiper-item>
+  </swiper>
+</view>

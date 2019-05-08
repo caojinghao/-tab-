@@ -1,0 +1,6 @@
+
+.lesson_tab{width: 100%;height: 88rpx;font-size: 32rpx;color: #4a4a4a;display: flex;border-bottom: 1px solid #F2F4F7;margin-top: -10rpx}
+.lesson_tabb{width: 33.33%;text-align: center;line-height: 88rpx}
+.lesson_tabb>view.active{color:#86b93f }
+.lesson_border{width: 64rpx;height: 4rpx;border-radius: 2rpx;background: #86b93f;margin: -4rpx auto 0}
+.lesson_title{font-size: 32rpx;color: #333;margin: 40rpx 0 28rpx}
